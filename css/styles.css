@@ -571,3 +571,15 @@ img {
   line-height: 1.18;
   color: var(--color-grey);
 }
+
+.characteristics_wrapper {
+  text-align: center;
+  padding: 28px 0;
+  background: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
