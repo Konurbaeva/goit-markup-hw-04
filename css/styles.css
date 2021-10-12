@@ -613,3 +613,34 @@ img {
 .social-list_icon {
   fill: #757575;
 }
+.clients-list {
+  display: flex;
+}
+
+.clients-list_item {
+  margin-left: 30px;
+}
+
+.clients-list .clients-list_item:first-child {
+  margin-left: 0px;
+}
+
+.clients-list_link {
+  border: 1px solid #afb188;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 14px 31px;
+  display: inline-block;
+}
+
+.clients-list_icon {
+  fill: #afb1b8;
+}
+
+.clients-list_link:hover .clients-list_icon,
+.clients-list_link:focus .clients-list_icon,
+.clients-list_link:hover,
+.clients-list_link:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
