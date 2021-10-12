@@ -384,8 +384,12 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
+.footer_container {
+  display: flex;
+}
 .hero .container {
   display: flex;
   flex-direction: column;
@@ -643,4 +647,25 @@ img {
 .clients-list_link:focus {
   border-color: #2196f3;
   fill: #2196f3;
+}
+
+.section-title {
+  margin: 94px;
+}
+
+.footer-social-box_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin: 12px 0 20px 0;
+}
+
+.footer-left-box-offset {
+  margin-right: 70px;
 }
