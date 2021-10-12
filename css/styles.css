@@ -587,6 +587,7 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social-list-item {
@@ -668,4 +669,12 @@ img {
 
 .footer-left-box-offset {
   margin-right: 70px;
+}
+
+.social-list_link-footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-list_icon_footer {
+  fill: #fff;
 }
