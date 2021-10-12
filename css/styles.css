@@ -570,6 +570,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: var(--color-grey);
+  margin-bottom: 16px;
 }
 
 .characteristics_wrapper {
@@ -599,5 +600,16 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  border: 1px solid red;
+}
+
+.social-list_link:hover .social-list_icon,
+.social-list_link:focus .social-list_icon,
+.social-list_link:hover,
+.social-list_link:focus {
+  fill: #fff;
+  background: #2196f3;
+}
+
+.social-list_icon {
+  fill: #757575;
 }
