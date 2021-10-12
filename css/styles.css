@@ -591,3 +591,13 @@ img {
 .social-list .social-list-item:first-child {
   margin-left: 10px;
 }
+
+.social-list_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
