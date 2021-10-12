@@ -583,3 +583,11 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.social-list-item {
+  margin-left: 10px;
+}
+
+.social-list .social-list-item:first-child {
+  margin-left: 10px;
+}
