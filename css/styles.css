@@ -181,11 +181,14 @@ ul {
 
 .text-logo,
 .current,
+.link:hover .contact-link_icon,
+.link:focus .contact-link_icon,
 .link:hover,
 .link:focus,
 .address-link:hover,
 .address-link:focus {
   color: var(--background-color);
+  fill: #2196f3;
 }
 
 .header-list {
@@ -471,14 +474,28 @@ img {
 }
 
 .contact-link {
-  display: block;
-  padding-top: 32px;
+  /* display: block;
+  /* padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--color-grey); */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
   color: var(--color-grey);
+}
+
+.contact-link_icon  {
+  margin-right: 10px;
+  fill: #757575;
 }
 
 .contact-list {
