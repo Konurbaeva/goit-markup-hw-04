@@ -60,11 +60,8 @@ ul {
   background: var(--background-color);
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
-
-  margin-left: 45%;
-  margin-right: 25%;
+  margin: 0 auto;
+  display: block;
 }
 
 .button {
@@ -229,6 +226,9 @@ ul {
   text-align: left;
 }
 
+.our-work.section {
+  padding-top: 0;
+}
 .our-work-title {
   margin-bottom: 50px;
 }
