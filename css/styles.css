@@ -157,6 +157,16 @@ ul {
   color: var(--primary-text-color);
 }
 
+.contact-link_icon  {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.icons {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .text-logo,
 .current,
 .link:hover .contact-link_icon,
@@ -462,19 +472,15 @@ img {
   display: flex;
   margin-left: 93px;
 }
-.contact-link_icon  {
-  margin-right: 10px;
-  fill: #757575;
-  color: orange;
-}
 
 .contact-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em;
   padding: 32px 0;
+  letter-spacing: 0.02em;
+
   display: flex;
   align-items: center;
   color: var(--color-grey);
