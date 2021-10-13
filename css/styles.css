@@ -462,16 +462,13 @@ img {
   display: flex;
   margin-left: 93px;
 }
+.contact-link_icon  {
+  margin-right: 10px;
+  fill: #757575;
+  color: orange;
+}
 
 .contact-link {
-  /* display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--color-grey); */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -481,11 +478,6 @@ img {
   display: flex;
   align-items: center;
   color: var(--color-grey);
-}
-
-.contact-link_icon  {
-  margin-right: 10px;
-  fill: #757575;
 }
 
 .contact-list {
